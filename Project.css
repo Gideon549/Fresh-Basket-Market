@@ -73,7 +73,7 @@ body {
   color: rgb(72, 224, 72);
   margin-right: 0.5rem;
 }
-.section1-list li{
+.section1-list li {
   display: flex;
 }
 .section1-list li,
@@ -110,7 +110,8 @@ body {
     font-size: 2rem;
   }
 
-  .section-1, .section-btn {
+  .section-1,
+  .section-btn {
     font-size: 1rem;
   }
   .section-1 .section1-list,
@@ -118,8 +119,8 @@ body {
     font-size: 1.2rem;
   }
   .section-1 .main-p,
-  .section-1 .section-btn li a{
-    font-size: 1.2rem;
+  .section-1 .section-btn li a {
+    font-size: 1rem;
   }
 }
 @media (max-width: 800px) {
@@ -144,17 +145,21 @@ body {
   }
 }
 @media (max-width: 450px) {
+  body {
+    font-size: 1rem;
+  }
+  .section-1 .section1-list,
+  .section-1 .section1-list li {
+    font-size: 1rem;
+  }
+
   .section1-img img {
-    width: 20rem;
-    height: 22rem;
+    width: 18rem;
+    height: 20rem;
   }
   .section-btn {
     flex-direction: column;
-    gap: 2rem;
-  }
-  .section2{
-    margin: 2rem 0 0 0;
-    padding: 2rem 0 0 0;
+    gap: 1.5rem;
   }
 }
 
@@ -178,8 +183,8 @@ body {
   justify-content: center;
   align-items: center;
   background-color: rgb(200, 241, 228);
-  margin: 5rem 0 0 0;
-  padding: 5rem 0;
+  margin: 3rem 0 0 0;
+  padding: 3rem 0;
 }
 .cards {
   display: flex;
@@ -215,16 +220,44 @@ body {
 }
 @media (max-width: 450px) {
   .card {
-    width: 22rem;
+    width: 20rem;
   }
-  .main-section .section-btn li a{
+  .main-section .section-btn li a {
     display: block;
     width: 100%;
     text-align: center;
   }
+  .section-1 h1 {
+    font-size: 1.5rem;
+  }
+  .section-1 > p {
+    font-size: 0.8rem;
+  }
+  .section2 {
+    padding: 1.5rem 0;
+    margin: 1.5rem 0;
+    gap: 1.5rem;
+  }
+  .section3 {
+    padding: 3rem 0;
+    gap: 1.5rem;
+  }
+
   .sction2-heading {
     align-items: center;
     width: 20rem;
+  }
+}
+@media (max-width: 350px) {
+  .card {
+    width: 16rem;
+  }
+      .section1-img img{
+        width: 16rem;
+        height: 18rem;
+      }
+  .section-1 > p {
+    font-size: 0.6rem;
   }
 }
 .card i {
@@ -246,7 +279,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: rgb(245, 242, 239);
-  padding: 5rem 0;
+  padding: 1.5rem 0;
 }
 .section3 > .cards > .card {
   border: 1px solid lightgray;
@@ -275,7 +308,7 @@ body {
   padding: 2rem;
   margin: 4rem 10rem;
   width: 100vw;
-  min-width: 22rem;
+  min-width: 16rem;
 }
 .section4-content h2,
 .section4-content p {
