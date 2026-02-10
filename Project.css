@@ -259,6 +259,12 @@ body {
   .section-1 > p {
     font-size: 0.6rem;
   }
+  .logo-wrapper i {
+    font-size: 2rem;
+  }
+  .section-1 > p {
+        font-size: 0.5rem;
+    }
 }
 .card i {
   padding: 0.5rem;
@@ -308,7 +314,7 @@ body {
   padding: 2rem;
   margin: 4rem 10rem;
   width: 100vw;
-  min-width: 16rem;
+  min-width: 18rem;
 }
 .section4-content h2,
 .section4-content p {
